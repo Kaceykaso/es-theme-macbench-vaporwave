@@ -1,0 +1,227 @@
+<!--
+theme name:		Macbench
+version:		1.0.0
+author:			Kacey Lewis
+license:		Based on Workbench theme by Eric
+based on:       "Workbench" by Eric Hettervik
+for:			Everyone, with love
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+
+	<view name="system">
+        
+        <carousel name="systemcarousel">
+            <type>horizontal</type>
+            <size>1 0.2325</size>
+            <pos>0 0.3</pos>
+            <origin>0 0</origin>
+            <color>FFFFFF00</color>
+        </carousel>
+	
+		<helpsystem name="help">
+			<pos>0.4 0.01</pos>
+			<textColor>1A1A1A</textColor>
+			<iconColor>1A1A1A</iconColor>
+			<fontPath>./art/Chicago.ttf</fontPath>
+			<fontSize>0.036</fontSize>
+		</helpsystem>
+		
+		<image name="background" extra="true">
+			<path>./art/wb_bg_system.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+
+	</view>
+
+    <view name="basic">
+
+		<helpsystem name="help">
+			<pos>0.05 0.01</pos>
+            <origin>0 0</origin>
+			<textColor>1A1A1A</textColor>
+			<iconColor>1A1A1A</iconColor>
+			<fontPath>./art/Chicago.ttf</fontPath>
+			<fontSize>0.036</fontSize>
+		</helpsystem>
+
+		<image name="logo">
+			<pos>0.495 0.225</pos>
+			<maxSize>0.354 0.174</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="background" extra="true">
+			<path>./art/wb_bg_basic.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.038 0.413</pos>
+			<size>0.906 0.536</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./art/Chicago.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<selectorColor>1A1A1A</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>1A1A1A</primaryColor>
+			<secondaryColor>1A1A1A</secondaryColor>
+			<forceUppercase>0</forceUppercase>
+		</textlist>
+
+	</view>
+
+	<view name="detailed">
+	
+		<helpsystem name="help">
+			<pos>0.05 0.01</pos>
+            <origin>0 0</origin>
+			<textColor>1A1A1A</textColor>
+			<iconColor>1A1A1A</iconColor>
+			<fontPath>./art/Chicago.ttf</fontPath>
+			<fontSize>0.036</fontSize>
+		</helpsystem>
+
+		<image name="logo">
+			<pos>0.227 0.225</pos>
+			<maxSize>0.343 0.175</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="background" extra="true">
+			<path>./art/wb_bg.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+
+		<image name="md_image">
+			<pos>0.76 0.34</pos>
+			<maxSize>0.32 0.37</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.027 0.420</pos>
+			<size>0.432 0.545</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./art/Chicago.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<selectorColor>1A1A1A</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>1A1A1A</primaryColor>
+			<secondaryColor>1A1A1A</secondaryColor>
+			<forceUppercase>0</forceUppercase>
+		</textlist>
+		
+<!-- Setting Fonts and sizes and setting position for some elements off-screen   -->
+		<text name="md_description, md_lbl_description, md_playcount, md_lbl_playcount, md_lbl_releasedate, md_lbl_players, md_players, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_genre, md_genre, md_lbl_lastplayed, md_lbl_rating">
+			<color>1A1A1A</color>
+			<pos>1 1</pos>
+			<fontSize>0.027</fontSize>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/Chicago.ttf</fontPath>
+		</text>
+
+
+		<text name="md_description">
+			<color>1A1A1A</color>
+			<pos>0.734 0.645</pos>
+			<size>0.220 0.329</size>
+		</text>
+
+		<text name="md_lbl_releasedate">
+			<color>1A1A1A</color>
+			<pos>0.514 0.64</pos>
+			<size>0.098 0.032</size>
+            <forceUppercase>1</forceUppercase>
+		</text>
+
+		<datetime name="md_releasedate">
+			<color>1A1A1A</color>
+			<pos>0.514 0.67</pos>
+			<size>0.098 0.032</size>
+			<fontSize>0.027</fontSize>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/Chicago.ttf</fontPath>
+		</datetime>
+		
+		<text name="md_lbl_players">
+			<color>1A1A1A</color>
+			<pos>0.64 0.64</pos>
+			<size>0.098 0.032</size>
+            <forceUppercase>1</forceUppercase>
+		</text>
+
+		<text name="md_players">
+			<color>1A1A1A</color>
+			<pos>0.688 0.67</pos>
+			<size>0.04 0.032</size>
+		</text>
+		
+		<text name="md_lbl_developer">
+			<color>1A1A1A</color>
+			<pos>0.514 0.718</pos>
+			<size>0.204 0.034</size>
+            <forceUppercase>1</forceUppercase>
+		</text>
+
+		<text name="md_developer">
+			<color>1A1A1A</color>
+			<pos>0.514 0.748</pos>
+			<size>0.204 0.034</size>
+		</text>
+		
+		<text name="md_lbl_publisher">
+			<color>1A1A1A</color>
+			<pos>0.514 0.797</pos>
+			<size>0.204 0.034</size>
+            <forceUppercase>1</forceUppercase>
+		</text>
+
+		<text name="md_publisher">
+			<color>1A1A1A</color>
+			<pos>0.514 0.827</pos>
+			<size>0.204 0.034</size>
+		</text>
+		
+		<text name="md_lbl_genre">
+			<color>1A1A1A</color>
+			<pos>0.514 0.876</pos>
+			<size>0.204 0.034</size>
+            <forceUppercase>1</forceUppercase>
+		</text>
+
+		<text name="md_genre">
+			<color>1A1A1A</color>
+			<pos>0.514 0.906</pos>
+			<size>0.204 0.034</size>
+		</text>
+		
+
+		
+		
+	</view>	
+
+	<view name="basic, detailed">
+		
+		<rating name="md_rating">
+			<filledPath>./art/invisible.png</filledPath>
+			<unfilledPath>./art/invisible.png</unfilledPath>
+			<pos>1 1</pos>
+		</rating>
+
+	</view>	
+
+
+	</theme>
